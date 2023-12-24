@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "32985944736",
+    "firebase_url": "https://scholar-5b511-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "scholar-5b511",
+    "storage_bucket": "scholar-5b511.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:32985944736:android:8d1a9df042b3eb1ce82fc5",
+        "android_client_info": {
+          "package_name": "ie.wit.scholar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "32985944736-jca765q01pf422m4e83s0sj4tie0u9m9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ie.wit.scholar",
+            "certificate_hash": "7261e2565d937b3996123ca1d3ab04dad7a96924"
+          }
+        },
+        {
+          "client_id": "32985944736-icue7lkpqfjbsfc5u32as0a5m0a2o21a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsNbPmRYLr1VheOFdNbZuZXvw75siL580"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "32985944736-icue7lkpqfjbsfc5u32as0a5m0a2o21a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
