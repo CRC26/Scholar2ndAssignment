@@ -148,6 +148,29 @@ class Home : AppCompatActivity() {
         startActivity(intent)
     }
 
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+
+        when (item.itemId) {
+            R.id.light -> {
+                viewModel.saveMode(ThemeHelper.LIGHT_MODE)
+                Log.e(this::class.simpleName ,item.title.toString())
+            }
+            R.id.dark -> {
+                viewModel.saveMode(ThemeHelper.DARK_MODE)
+                Log.e(this::class.simpleName ,item.title.toString())
+            }
+            R.id.sys_def -> {
+                viewModel.saveMode(ThemeHelper.DEFAULT)
+                Log.e(this::class.simpleName ,item.title.toString())
+            }
+            else -> {
+                viewModel.saveMode(ThemeHelper.DEFAULT)
+                Log.e(this::class.simpleName ,item.title.toString())
+            }
+        }
+        return true
+    }
+
     private fun registerImagePickerCallback() {
         intentLauncher =
             registerForActivityResult(ActivityResultContracts.StartActivityForResult()) { result ->
